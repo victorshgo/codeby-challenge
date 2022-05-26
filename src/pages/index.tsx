@@ -5,8 +5,8 @@ const Page = ({
   freightPaid,
   freeShipping,
 }: {
-  freightPaid: ProductsProps[];
-  freeShipping: ProductsProps[];
+  freightPaid: ProductsProps;
+  freeShipping: ProductsProps;
 }) => {
   return <Home freightPaid={freightPaid} freeShipping={freeShipping} />;
 };
