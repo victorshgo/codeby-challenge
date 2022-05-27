@@ -13,11 +13,11 @@ const Page = ({
 
 Page.getInitialProps = async () => {
   const freightPaid = await fetch(
-    "http://localhost:3000/api/freight-paid"
+    "https://codeby-challenge-three.vercel.app/api/freight-paid"
   ).then((res) => res.json());
 
   const freeShipping = await fetch(
-    "http://localhost:3000/api/free-shipping"
+    "https://codeby-challenge-three.vercel.app/api/free-shipping"
   ).then((res) => res.json());
 
   return { freeShipping, freightPaid };
