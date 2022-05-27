@@ -18,6 +18,10 @@ export const Name = styled.p`
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
+  
+  @media (max-width: 600px) {
+    margin: 0.5em 0;
+  }
 `;
 
 export const Prices = styled.div`
