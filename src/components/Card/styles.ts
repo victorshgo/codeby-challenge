@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  width: 450px;
+  max-width: 450px;
   height: fit-content;
   margin: 2rem;
   border: 1px solid #eaeaea;
