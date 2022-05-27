@@ -34,6 +34,10 @@ export const Congratulations = styled.span`
   color: #1d7a08;
   background-color: #c7ffa6;
   border-radius: 20px;
+  
+  @media (max-width: 600px) {
+    font-size: 13px;
+  }
 `;
 
 export const Button = styled.button`
